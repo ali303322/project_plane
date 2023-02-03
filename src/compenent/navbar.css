@@ -1,0 +1,25 @@
+.nav-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+img {
+    width: 70px;
+    height: 70px;
+    margin-left: 50px;
+}
+.link {
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.l{
+    display: flex;
+    align-items: center; 
+}
+h3{
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}

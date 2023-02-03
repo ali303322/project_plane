@@ -1,0 +1,56 @@
+body{
+    background-image: url('../airplane.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top:5%;
+    font-size: 80px;
+}
+span{
+    color: aliceblue;
+}
+.cards{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6{
+    width: 30%;
+    height: 150px;
+    background-color: white;
+    margin: auto;
+    margin-top: 30px ;
+    border-radius: 30px;
+    transition: 1s;
+}
+.destination{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.destination img {
+    margin-left: 10px;
+    width: 80px;
+    height: 80px;
+}
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover,
+.card5:hover,
+.card6:hover{
+    background-color: skyblue;
+    cursor: pointer;
+}
