@@ -1,0 +1,39 @@
+select option:first-child {
+    display: none;
+    
+}
+.reservation_Zone{
+    width: 70%;
+    height: 800px;
+    border-radius: 100px;
+    margin: auto;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+#select{
+    width: 500px;
+    height: 50px;
+    font-size: large;
+    text-align: center;
+    margin-top: 10%;
+}  
+#butt{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    background-color: skyblue;
+    border: 1px solid skyblue;
+    margin-left: 10px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    font-size: large;
+    text-align: center;
+}  
+option{
+    font-size: x-large;
+}

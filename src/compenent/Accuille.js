@@ -1,75 +1,19 @@
 import React from 'react'
 import './Acuille.css';
-import plane from '../plane.png'
+import Cards from './Cards';
 
 export default function Accuille() {
   return (
-    <div>
+    <div className='bg'>
       <h1>Bienvenu Sur <br /> <span>Flight Company</span> <br /> Website</h1>
 
       <div className='cards'>
-        <div className='card1'>
-            <div className='destination'>
-              <h3>Marakech <br /> 13:00</h3>
-              <img src={plane} alt="" />
-              <h3>London <br /> 18:30</h3>
-            </div>
-            <div className='date'>
-              <h3>Mardi 07 Janvier 2023</h3>
-            </div>
-        </div>
-        <div className='card2'>
-            <div className='destination'>
-              <h3>Tanger <br /> 07:00</h3>
-              <img src={plane} alt="" />
-              <h3>Paris <br /> 10:30</h3>
-            </div>
-            <div className='date'>
-              <h3>venredi 10 Janvier 2023</h3>
-            </div>
-        </div>
-        <div className='card3'>
-            <div className='destination'>
-              <h3>Tanger <br /> 19:30</h3>
-              <img src={plane} alt="" />
-              <h3>Istanbul <br /> 22:00</h3>
-            </div>
-            <div className='date'>
-              <h3>lundi 13 Janvier 2023</h3>
-            </div>
-        </div>
-        <div className='card4'>
-            <div className='destination'>
-              <h3>Marakech <br /> 19:30</h3>
-              <img src={plane} alt="" />
-              <h3>oujeda <br /> 22:00</h3>
-            </div>
-            <div className='date'>
-              <h3>lundi 13 Janvier 2023</h3>
-            </div>
-        </div>
-
-        <div className='card5'>
-            <div className='destination'>
-              <h3>Tanger <br /> 19:30</h3>
-              <img src={plane} alt="" />
-              <h3>Al riadh <br /> 22:00</h3>
-            </div>
-            <div className='date'>
-              <h3>samedi 11 Janvier 2023</h3>
-            </div>
-        </div>
-
-        <div className='card6'>
-            <div className='destination'>
-              <h3>Casablanca <br /> 19:30</h3>
-              <img src={plane} alt="" />
-              <h3>Roma <br /> 22:00</h3>
-            </div>
-            <div className='date'>
-              <h3>Mercredi 22 Janvier 2023</h3>
-            </div>
-        </div>
+        <Cards villeDepart='Tanger' DepartTime='10:30' villeArive='London' AriveTime='15:30' DateVol="1 Avril 2023" />
+        <Cards villeDepart='Casa blanca' DepartTime='11:00' villeArive='Amesterdam' AriveTime='16:00' DateVol="1 Avril 2023" />
+        <Cards villeDepart='Marakech' DepartTime='09:30' villeArive='sweden' AriveTime='12:00' DateVol="3 Avril 2023" />
+        <Cards villeDepart='Tanger' DepartTime='14:50' villeArive='Marakesh' AriveTime='16:30' DateVol="3 Avril 2023" />
+        <Cards villeDepart='Casa blanca' DepartTime='07:30' villeArive='Abu Dabi' AriveTime='14:00' DateVol="4 Avril 2023" />
+        <Cards villeDepart='Tanger' DepartTime='08:25' villeArive='Cairo' AriveTime='12:55' DateVol="4 Avril 2023" />
       </div>
     </div>
   )
